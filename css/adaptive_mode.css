@@ -1,0 +1,324 @@
+@media (max-width: 1600px) {
+    .b-menu-bottom {}
+    .b-menu-bottom .menu-bottom__item {
+        padding-right: 40px;
+    }
+    /* -------------------------- */
+    .b-completed {
+        left: 60px;
+    }
+}
+@media (max-width: 1520px) {
+    .l-header .header__wrap {
+        max-width: 1080px;
+    }
+    .l-header .header__top {
+        height: 67px;
+    }
+    /* ---------------------- */
+    .l-main {}
+    .l-main .main__wrap {
+        max-width: 1080px;
+    }
+    /* ---------------------- */
+    .b-menu-top {
+        display: none;
+    }
+    /* ------------------- */
+    .b-menu-bottom {}
+    .b-menu-bottom .menu-bottom__item {
+        padding-right: 27px;
+    }
+    .b-menu-bottom .menu-bottom__item:last-child {
+        padding-right: 10px;
+    }
+    .b-menu-bottom .menu-bottom__item:not(:first-child)::after {
+        content: none;
+    }
+    .b-menu-bottom .menu-bottom__item a, 
+    .b-menu-bottom .menu-bottom__item a:visited, 
+    .b-menu-bottom .menu-bottom__item a:active {
+        font-size: 14px;
+    }
+    /* -------------------------- */
+    .b-service-center {
+        margin-bottom: 160px;
+    }
+    .b-service-center::after {
+        content: "";
+        position: absolute;
+        top: 820px;
+        width: 100vw;
+        left: 0;
+        height: 40px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .b-service-center .service-center__col-left {
+        padding: 80px 0 80px;
+        width: calc(100% / 1080 * 664);
+    }
+    .b-service-center .service-center__col-right {
+        right: -265px;
+        width: calc(100% / 1366 * 800);
+    }
+    .b-service-center .service-center__title {
+        font-size: 70px;
+    }
+    .b-service-center .service-center__button::before {
+        top: -7px;
+    }
+    .b-service-center .service-center__bg {
+        height: 930px;
+    }
+    /* ------------------------ */
+    .b-service {}
+    .b-service-center .service-center__description {
+        font-size: 20px;
+    }
+    .b-service .service__item {
+        font-size: 18px;
+        width: calc(50% - 5px);
+    }
+    /* ------------------------------ */
+    .b-completed {
+        left: 22px;
+        bottom: 160px;
+    }
+    /* ------------------------------- */
+    .b-specialists {}
+    .b-specialists .specialists__title {
+        font-size: 42px;
+    }
+    .b-specialists .specialists__exp {
+        font-size: 20px;
+    }
+    /* ------------------------------- */
+    .b-address {}
+    .b-address .address__title {
+        font-size: 50px;
+    }
+    .b-address .address__description {
+        font-size: 18px;
+    }
+    .b-address .address__image:first-child {
+        max-height: 537px;
+    }
+    .b-address .address__image:not(:last-child) {
+        min-height: 524px;
+    }
+    .b-address .address__button {
+        max-width: 137px;
+        padding: 16px 38px;
+    }
+    .b-address .address__button a, 
+    .b-address .address__button a:active, 
+    .b-address .address__button a:visited {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1280px) {
+    .b-completed {
+        left: 16px;
+        max-width: 318px;
+        padding: 15px 20px;
+    }
+    .b-completed .completed__num p {
+        font-size: 40px;
+    }
+    .b-completed .completed__desc {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1100px) {
+    .b-service-center {}
+    .b-service-center .service-center__col-right {
+        width: calc(100% / 1366 * 840);
+    }
+}
+@media (max-width: 1366px) {
+    .l-header .header__wrap {
+        max-width: 850px;
+    }
+    .l-header .header__top {
+        height: 60px;
+    }
+    .l-header::after {
+        top: 80px;
+    }
+    /* ----------------------------- */
+    .l-main .main__wrap {
+        max-width: 850px;
+    }
+    .b-logo {
+        top: 19px;
+    }
+    /* ------------------------- */
+    .b-call .call__number p {
+        font-size: 18px;
+    }
+    .b-call .call__time {
+        font-size: 12px;
+    }
+    /* ------------------------- */
+    .b-menu-bottom .menu-bottom__item:last-child {
+        display: none;
+    }
+    .b-menu-bottom .menu-bottom__item:nth-last-child(2) {
+        padding-right: 10px;
+    }
+    /* ---------------------------- */
+    .b-service-center {
+        margin-bottom: 120px;
+    }
+    .b-service-center .service-center__title {
+        font-size: 50px;
+        max-width: 330px;
+        line-height: 1;
+        margin-bottom: 40px;
+    }
+    .b-service-center .service-center__col-left {
+        width: calc(100% / 850 * 535);
+    }
+    .b-service-center .service-center__col-right {
+        width: calc(100% / 1024 * 650);
+        right: -240px;
+    }
+    .b-service-center .service-center__description {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .b-service-center .service-center__button {
+        margin-bottom: 32px;
+        padding: 15px 30px 18px 50px;
+        max-width: 210px;
+    }
+    .b-service-center .service-center__button img {
+        left: 30px;
+        top: 18px;
+    }
+    .b-service-center .service-center__button a {
+        font-size: 14px
+    }
+    /* ------------------------- */
+    .b-service {}
+    .b-service .service__image  {
+        padding: 7px 9px;
+    }
+    .b-service .service__image  img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .b-service .service__items {
+        max-width: 525px;
+    }
+    .b-service .service__item {
+        font-size: 14px;
+        width: 50%;
+    }
+    .b-service-center .service-center__bg {
+        height: 732px;
+    }
+    .b-service-center::after {
+        top: 622px;
+    }
+    /* -------------------------- */
+    .b-completed {
+        padding: 12px 22px 9px;
+        border-radius: 61px;
+        max-width: 254px;
+        bottom: 100px;
+    }
+    .b-completed .completed__num {
+        max-width: 94px;
+    }
+    .b-completed .completed__num p {
+        font-size: 28px;
+    }
+    .b-completed .completed__emoji {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .b-completed .completed__desc {
+        font-size: 14px;
+    }
+    /* ------------------------- */
+    .b-specialists {
+        padding: 80px 0;
+    }
+    .b-specialists .specialists__title {
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+    .b-specialists .specialists__exp {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+    .b-specialists .specialist__item-image {
+        margin-bottom: 32px;
+    }
+    .b-specialists .specialist__item-name {
+        font-size: 20px;
+    }
+    .b-specialists .specialist__item-desc {
+        font-size: 14px;
+        max-width: 165px;
+        margin-bottom: 24px;
+    }
+    .b-specialists .specialist__item-work {
+        font-size: 14px;
+        margin-bottom: 24px;
+        max-width: 186px;
+    }
+    .b-specialists .specialist__item-comm {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+    /* ---------------- */
+    .b-address {
+        padding-bottom: 80px;
+    }
+    .b-address .address__title {
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+    .b-address .address__description {
+        font-size: 14px;
+    }
+    .b-address .address__description:first-of-type {
+        margin-bottom: 24px;
+    }
+    .b-address .address__description:last-of-type {
+        margin-bottom: 32px;
+    }
+    .b-address .address__view-address {
+        width: 100%;
+        order: -1;
+    }
+    .b-address .address__image:not(:last-child) {
+        margin-right: 0;
+        height: 191px;
+        min-height: 191px;
+    }
+    .b-address .address__image:first-child {
+        margin-bottom: 0;
+    }
+    .b-address .address__button {
+        margin-bottom: 40px;
+    }
+    .b-address .address__image {
+        width: calc(33.33% - 14px);
+        margin-right: 0;
+        max-height: 191px;
+    }
+    .b-address .address__button {
+        max-width: 128px;
+        padding: 12px 28px;
+    }
+    .b-address .address__button a, 
+    .b-address .address__button a:active, 
+    .b-address .address__button a:visited {
+        font-size: 14px;
+    }
+}
